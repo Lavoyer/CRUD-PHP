@@ -1,3 +1,4 @@
+<!-- Rafael Lavoyer RA:22208760 -->
 <?php
 session_start();
 if (isset($_SESSION['nome'])) {
