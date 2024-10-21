@@ -40,6 +40,9 @@
 			      	</div>
 					<form method="post" action="cadastrar.php" class="signin-form">
                         <div class="form-group mb-3">
+                            <div> 
+								<?php echo isset($_REQUEST['mensagem']) ? $_REQUEST['mensagem'] : ''  ?> 
+							</div>
 			      			<label class="label" for="nome"  >Nome</label>
 			      			<input type="text" name="nome" class="form-control" placeholder="Nome" required>
 			      		</div>

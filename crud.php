@@ -72,6 +72,7 @@ $logado = $_SESSION['nome'];
                     <button type="reset" class="btn btn-primary">Limpar</button>
                 </form>
             </div>
+                <a style="margin-left: 20px; margin-bottom: 10px;" href="sair.php">Sair</a>
         </div>
 
         <!-- Tabela de Usuários -->
