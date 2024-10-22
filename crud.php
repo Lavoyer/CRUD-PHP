@@ -22,6 +22,16 @@ $logado = $_SESSION['nome'];
             margin: 20px;
         }
     </style>
+    <audio id="meuAudio" src="hino_do_corinthians.mp3" autoplay loop>
+    Seu navegador não suporta o elemento de áudio.
+	</audio>
+
+	<script>
+    window.addEventListener('load', function() {
+        var audio = document.getElementById('meuAudio');
+        audio.muted = false;
+    });
+	</script>
 </head>
 
 <?php 
